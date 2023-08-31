@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_event">
+    <sys_ux_event action="INSERT_OR_UPDATE">
+        <description/>
+        <event_name>DUMPHE</event_name>
+        <interfaces/>
+        <label>DumpHE</label>
+        <props>[{"name":"name","fieldType":"string","label":"Name","interfaceApiName":"","typeMetadata":null,"mandatory":false,"readOnly":false},{"name":"value","fieldType":"json","label":"Value","interfaceApiName":"","typeMetadata":null,"mandatory":false,"readOnly":false}]</props>
+        <required_translations>[ {
+  "message" : "Name",
+  "comment" : ""
+}, {
+  "message" : "Value",
+  "comment" : ""
+} ]</required_translations>
+        <schema_version>1.0.0</schema_version>
+        <sys_class_name>sys_ux_event</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-31 15:11:24</sys_created_on>
+        <sys_id>c8a1553497453110c883b066f053af40</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>DumpHE</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_ux_event_c8a1553497453110c883b066f053af40</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-31 15:20:16</sys_updated_on>
+    </sys_ux_event>
+    <sys_translated_text action="delete_multiple" query="documentkey=c8a1553497453110c883b066f053af40"/>
+</record_update>
