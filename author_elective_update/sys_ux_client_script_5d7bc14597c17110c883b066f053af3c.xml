@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="DELETE">
+        <includes/>
+        <macroponent display_value="Home">5fd11afb1b818d10b81fdce7cc4bcb15</macroponent>
+        <name>my_next_needit_record/secondaryItems</name>
+        <preset/>
+        <required_translations>[ ]</required_translations>
+        <script><![CDATA[/**
+  * @param {params} params
+  * @param {api} params.api
+  * @param {TransformApiHelpers} params.helpers
+  */
+function evaluateProperty({api, helpers}) {
+	return {a: "a", b:"b"};
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-01 09:22:56</sys_created_on>
+        <sys_id>5d7bc14597c17110c883b066f053af3c</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>my_next_needit_record/secondaryItems</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_ux_client_script_5d7bc14597c17110c883b066f053af3c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-01 09:25:25</sys_updated_on>
+        <target>macroponent</target>
+        <type>transform</type>
+    </sys_ux_client_script>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>6a874715db381c5c413450b6f49619da</instance_id>
+        <instance_name>dev103518</instance_name>
+        <name>sys_ux_client_script_5d7bc14597c17110c883b066f053af3c</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_ux_client_script"&gt;&lt;sys_ux_client_script action="INSERT_OR_UPDATE"&gt;&lt;includes/&gt;&lt;macroponent display_value="Home"&gt;5fd11afb1b818d10b81fdce7cc4bcb15&lt;/macroponent&gt;&lt;name&gt;my_next_needit_record/secondaryItems&lt;/name&gt;&lt;preset/&gt;&lt;required_translations&gt;[ ]&lt;/required_translations&gt;&lt;script&gt;&lt;![CDATA[/**
+  * @param {params} params
+  * @param {api} params.api
+  * @param {TransformApiHelpers} params.helpers
+  */
+function evaluateProperty({api, helpers}) {
+	return {a: "a", b:"b"};
+}]]&gt;&lt;/script&gt;&lt;script_api_version&gt;2.0.0&lt;/script_api_version&gt;&lt;sys_class_name&gt;sys_ux_client_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-09-01 09:22:56&lt;/sys_created_on&gt;&lt;sys_id&gt;5d7bc14597c17110c883b066f053af3c&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;my_next_needit_record/secondaryItems&lt;/sys_name&gt;&lt;sys_package display_value="NeedIt" source="x_58872_needit"&gt;6ead8e780f603200cd674f8ce1050ed1&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="NeedIt"&gt;6ead8e780f603200cd674f8ce1050ed1&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ux_client_script_5d7bc14597c17110c883b066f053af3c&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-09-01 09:25:25&lt;/sys_updated_on&gt;&lt;target&gt;macroponent&lt;/target&gt;&lt;type&gt;transform&lt;/type&gt;&lt;/sys_ux_client_script&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>301731707</payload_hash>
+        <record_name>my_next_needit_record/secondaryItems</record_name>
+        <reverted_from/>
+        <source>b093254c974d3110c883b066f053afb8</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-01 09:25:26</sys_created_on>
+        <sys_id>060c4d4597c17110c883b066f053af6e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18a500fc87d0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-01 09:25:26</sys_updated_on>
+        <type>UX Client Script</type>
+        <update_guid>ca0c4d45ecc171101886c5aa20c3726d</update_guid>
+        <update_guid_history>ca0c4d45ecc171101886c5aa20c3726d:301731707,6d7bc145ebc17110cbc7d7b052560b3f:1531626055</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-01 09:26:09</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_client_script">sys_ux_client_script</sys_db_object>
+        <sys_id>642a9b71ada147d9a45f50b330f17db1</sys_id>
+        <sys_metadata>5d7bc14597c17110c883b066f053af3c</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>my_next_needit_record/secondaryItems</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete display_value="">94872a8897db403e8ee69a431de2fca4</sys_scope_delete>
+        <sys_update_name>sys_ux_client_script_5d7bc14597c17110c883b066f053af3c</sys_update_name>
+        <sys_update_version display_value="sys_ux_client_script_5d7bc14597c17110c883b066f053af3c">060c4d4597c17110c883b066f053af6e</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-01 09:26:09</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
